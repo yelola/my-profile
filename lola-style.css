@@ -1,0 +1,91 @@
+body{
+	background-color: #F9F9F9;
+
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: -webkit-xxx-large;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: #191919;
+  
+}
+
+
+
+p{ 
+	font-family: 'Poppins', sans-serif;
+    font-size: unset;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgb(30,30,30);
+
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20;
+	font-weight: 500;
+}
+
+}
+
+h2{    
+	font-family: 'Noto Serif SC', serif;
+    font-size: x-large;
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+	color: #7D6E83;
+}
+
+@media(max-width: 960px){
+	.container{
+		width: 700px;
+	}
+}
+
+@media(max-width: 720px){
+	.container{
+		width: 500px;
+	}
+}
+
+@media(max-width: 540px){
+	.container{
+		width: 300px;
+	}
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.btn-pink{
+	background-color: #FFABE1;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+
+.btn-pink:hover{
+	background-color: black;
+	color: white;
+}
